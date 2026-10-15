@@ -1,0 +1,21 @@
+﻿test_text,test_intent,closest_train_text,train_intent,cosine
+أريد تغيير عنوان التوصيل لطلبي,change_shipping_address,أرغب في تعديل عنوان الشحن الخاص بالطلب,change_shipping_address,0.969
+أبي أبدل على حسابي الثاني,switch_account,أبي أدخل بحساب ثاني,switch_account,0.964
+أرغب في حذف حسابي نهائياً,delete_account,أريد إغلاق حسابي بشكل دائم,delete_account,0.958
+أريد إضافة عنوان شحن جديد إلى حسابي,set_up_shipping_address,أرغب في تعديل عنوان الشحن الخاص بالطلب,change_shipping_address,0.954
+أبي أمسح حسابي من عندكم,delete_account,أبي أحذف حسابي خلاص,delete_account,0.953
+أريد تحديث بيانات حسابي,edit_account,أرغب في تعديل اسمي في الحساب,edit_account,0.953
+أحتاج نسخة من فاتورة الشراء,get_invoice,أحتاج الفاتورة للشركة,get_invoice,0.952
+كيف أضيف عنوان ثاني للتوصيل؟,set_up_shipping_address,كيف أضيف عنواناً للتوصيل؟,set_up_shipping_address,0.952
+أريد استرداد المبلغ لأن المنتج وصل تالفاً,get_refund,وصلني منتج مختلف عن الطلب وأريد استرداد المبلغ,get_refund,0.952
+رجعوا لي المبلغ لو سمحتوا ما أبي الطلب,get_refund,طلعوا لي فاتورة الطلب لو سمحتوا,get_invoice,0.951
+أرغب في تعديل الكمية في طلبي الحالي,change_order,أرغب في تعديل عنوان الشحن الخاص بالطلب,change_shipping_address,0.95
+أبي أعطيكم رأيي في الخدمة,review,أرغب في إضافة رأيي عن الخدمة,review,0.948
+هل توجد رسوم على إلغاء الطلب؟,check_cancellation_fee,هل سأدفع رسوماً إذا ألغيت الطلب؟,check_cancellation_fee,0.948
+أواجه مشكلة في التسجيل في الموقع,registration_problems,أرغب في التسجيل في موقعكم,create_account,0.948
+غلطت في العنوان، أبي أعدله,change_shipping_address,العنوان اللي في الطلب غلط عدلوه لي,change_shipping_address,0.947
+نسيت الباسورد وما أقدر أدخل,recover_password,ما أقدر أدخل حسابي نسيت الباس,recover_password,0.944
+أبي فلوسي ترجع، المنتج خربان,get_refund,أبي أسترجع فلوسي,get_refund,0.944
+أبي أحفظ عنوان بيتي في الحساب,set_up_shipping_address,ودي أسجل عنوان أهلي في الحساب,set_up_shipping_address,0.944
+الاسترجاع وش صار عليه؟,track_refund,الاسترجاع متأخر وش السالفة؟,track_refund,0.94
+كيف يمكنني التواصل مع خدمة العملاء؟,contact_customer_service,كيف أكلم خدمة العملاء؟,contact_customer_service,0.94

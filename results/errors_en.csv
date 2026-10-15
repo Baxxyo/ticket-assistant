@@ -1,0 +1,6 @@
+text,gold,pred
+am I entitled to a reimbursement?,check_refund_policy,get_refund
+using another user,switch_account,contact_human_agent
+can ya give me information about an addres update,change_shipping_address,edit_account
+assistance with hcanging order {{Order Number}},change_order,cancel_order
+i cant correct purchase {{Order Number}},change_order,cancel_order

@@ -1,0 +1,61 @@
+{
+  "comparison": [
+    {
+      "model": "1. TF-IDF + LR (EN train)",
+      "macro_f1_en": 0.98,
+      "macro_f1_ar": 0.003,
+      "acc_ar_msa": 0.036,
+      "acc_ar_gulf": 0.038,
+      "p50_ms": 0.9,
+      "p95_ms": 1.3
+    },
+    {
+      "model": "2. e5 + LR (EN train)",
+      "macro_f1_en": 0.995,
+      "macro_f1_ar": 0.54,
+      "acc_ar_msa": 0.75,
+      "acc_ar_gulf": 0.453,
+      "p50_ms": 11.5,
+      "p95_ms": 14.4
+    },
+    {
+      "model": "3. TF-IDF + LR (EN + AR train)",
+      "macro_f1_en": 0.981,
+      "macro_f1_ar": 0.576,
+      "acc_ar_msa": 0.536,
+      "acc_ar_gulf": 0.623,
+      "p50_ms": 0.9,
+      "p95_ms": 1.4
+    },
+    {
+      "model": "4. e5 + LR (EN + AR train)",
+      "macro_f1_en": 0.996,
+      "macro_f1_ar": 0.673,
+      "acc_ar_msa": 0.964,
+      "acc_ar_gulf": 0.528,
+      "p50_ms": 11.4,
+      "p95_ms": 16.3
+    }
+  ],
+  "final_model": {
+    "tau_en": 0.3,
+    "tau_ar": 0.45,
+    "en_coverage_at_tau": 0.996,
+    "en_accuracy_on_accepted": 0.998,
+    "search_hit@5_en": 0.998,
+    "ar_coverage_at_tau": 0.235,
+    "ar_accuracy_on_accepted": 1.0,
+    "ar_test_near_duplicates(cos>0.95)": 10,
+    "clean_ar_test_size": 71,
+    "clean_before (EN train)": {
+      "macro_f1_ar": 0.482,
+      "acc_ar_msa": 0.727,
+      "acc_ar_gulf": 0.429
+    },
+    "clean_after (EN + AR train)": {
+      "macro_f1_ar": 0.614,
+      "acc_ar_msa": 0.955,
+      "acc_ar_gulf": 0.51
+    }
+  }
+}
