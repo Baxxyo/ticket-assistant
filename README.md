@@ -3,7 +3,7 @@
 https://github.com/SDAIAAcademy
 
 SDAIA Academy · Applied NLP Engineering · Capstone Project
-**Author:** Badryah Adel Aljabri-1125829216
+**Author:** Badryah Adel Aljabri-1125829216-بدرية عادل الجابري
 
 ## Problem
 
