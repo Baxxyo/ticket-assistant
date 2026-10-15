@@ -1,7 +1,9 @@
 # Ticket Assistant: Bilingual Support-Ticket Triage (English, MSA, Gulf Arabic)
 
+https://github.com/SDAIAAcademy
+
 SDAIA Academy · Applied NLP Engineering · Capstone Project
-**Author:** Badryah
+**Author:** Badryah Adel Aljabri
 
 ## Problem
 
